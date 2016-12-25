@@ -1,0 +1,23 @@
+{
+  "name": "poe-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcfarlandmac/poe-helper.git"
+  },
+  "author": "Matthew McFarland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcfarlandmac/poe-helper/issues"
+  },
+  "homepage": "https://github.com/mcfarlandmac/poe-helper#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}

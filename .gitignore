@@ -3,3 +3,4 @@ app/lib
 css/*.css
 .DS_Store
 .idea
+npm-debug.log

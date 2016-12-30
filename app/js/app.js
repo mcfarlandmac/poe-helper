@@ -7,15 +7,18 @@
 'use strict';
 
 define([
-    'jquery',
-    'underscore',
-    'backbone'
-], function($, _, Backbone) {
-    var initialize = function initialize() {
-        console.log('hello world');
-    };
+  'jquery',
+  'underscore',
+  'backbone',
+  'views/app'
+], function($, _, Backbone, ApplicationView) {
+  var initialize = function initialize() {
+    var application = new ApplicationView();
 
-    return {
-        initialize: initialize
-    };
+    application.render();
+  };
+
+  return {
+    initialize: initialize
+  };
 });

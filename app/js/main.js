@@ -7,13 +7,16 @@
 'use strict';
 
 require.config({
-    paths: {
-        jquery: '../lib/jquery/dist/jquery',
-        underscore: '../lib/underscore/underscore',
-        backbone: '../lib/backbone/backbone'
-    }
+  paths: {
+    // Libraries and Frameworks
+    jquery: '../../node_modules/jquery/dist/jquery',
+    underscore: '../../node_modules/underscore/underscore',
+    backbone: '../../node_modules/backbone/backbone',
+    // Helper libraries
+    text: '../../node_modules/requirejs-text/text'
+  }
 });
 
 require(['app'], function(App) {
-    App.initialize();
+  App.initialize();
 });
